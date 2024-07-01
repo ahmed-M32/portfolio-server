@@ -17,7 +17,8 @@
   },
   "scripts": {
     "dev": "nodemon email.js",
-    "start": "node email.js"
+    "start": "node email.js",
+    "build" :"npm run build"
   },
   "name": "portfolio",
   "version": "1.0.0",
