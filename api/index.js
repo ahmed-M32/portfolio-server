@@ -9,7 +9,7 @@ const pass = "wiqsjsacziorvhtt";
 const port = process.env.port || 3000;
 
 var corsOptions = {
-	origin: "https://portfolio-ahmed-m32.vercel.app/",
+	origin: "https://portfolio-ahmed-m32.vercel.app",
 	optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors(corsOptions));
 
 app.get("/", (req, res) => {
-	res.send("portfolio email server");
+	res.send("email portfolio server");
 });
 
 app.post("/", (req, res) => {
