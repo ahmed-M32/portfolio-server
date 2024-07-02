@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors(corsOptions));
 
 app.get("/", (req, res) => {
-	res.send("wel");
+	res.send("portfolio email server");
 });
 
 app.post("/", (req, res) => {
